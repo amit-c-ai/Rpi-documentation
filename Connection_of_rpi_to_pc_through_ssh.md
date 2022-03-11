@@ -8,10 +8,10 @@
   * _SD-Card/Pen-drive_
 
 * __Flashing OS :__
-  * _Download rpi imager__ :
-        * [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
-        * [Linux](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
-        * [Mac Os](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
+  * _Download rpi imager_ :
+    * [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
+    * [Linux](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
+    * [Mac Os](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
 
   * _Choose OS then choose usb then flash__
 
@@ -30,12 +30,14 @@
   * _Connect rpi with pc through LAN cable_
   * _Give power supply to rpi_
 
-* Now open putty and type "ip_address_of_your_choice"
-* In side tab : SSH > X11 > Enable X11 forwarding
-* Click on Open
-* Login using default username : pi and password : raspberry
-* Enter command : vncserver :8
+* __Putty :__
+  * Now open putty and type "ip_address_of_your_choice"
+  * In side tab : SSH > X11 > Enable X11 forwarding
+  * Click on Open
+  * Login using default username : pi and password : raspberry
+  * Enter command : vncserver :8
 
-* Open Vnc viewer
-* Type and open 169.254.126.99:8
+* __Vnc viewer :__
+  * Open Vnc viewer
+  * Type and open `169.254.126.99:8`
       
